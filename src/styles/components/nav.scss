@@ -1,0 +1,29 @@
+.nav {
+  width: 45%;
+  display: flex;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  &__item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+    transition: 0.4s ease-in-out;
+    border-bottom: 1px transparent solid;
+    padding: 16px 6px 8px 4px;
+    cursor: pointer;
+
+    &:hover {
+      color: #8a5137;
+      border-bottom: 1px #8a5137 solid;
+    }
+  }
+}

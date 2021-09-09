@@ -43,3 +43,10 @@ const swip = new Swiper('.insta-slider', {
     },
   },
 });
+
+const menu = document.querySelector('.dropbtn');
+const nav = document.querySelector('.dropup-content');
+
+menu.addEventListener('click', () => {
+  nav.classList.toggle('dropup-content--activ');
+});
