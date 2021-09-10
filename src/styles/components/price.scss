@@ -1,24 +1,23 @@
 .price {
-    display: flex;
-  }
-  
-  .price__product {
-    background-image: url("../img/product_bg.png");
-    background-repeat: no-repeat;
-  }
-  
-  .price__product img {
-    max-width: 687px;
-    width: 100%;
-  }
-  
-  .price__content {
-    margin-top: 205px;
-    width: 445px;
-    margin-left: 65px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
+  display: flex;
+  justify-content: space-around;
+}
+
+.price__product {
+  background-image: url("../img/product_bg.png");
+  background-repeat: no-repeat;
+}
+
+.price__product img {
+  max-width: 687px;
+  width: 100%;
+}
+
+.price__content {
+  margin-top: 205px;
+  width: 445px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

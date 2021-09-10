@@ -62,3 +62,7 @@ const form = document.getElementById('submit');
 form.addEventListener('submit', function(event) {
   event.preventDefault();
 });
+
+document.getElementById('clearButton').onclick = function(e) {
+  document.getElementById('textInput').value = '';
+};

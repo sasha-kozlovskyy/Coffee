@@ -1,81 +1,80 @@
 .content__title {
-    font-style: normal;
-    font-weight: 200;
-    font-size: 40px;
-    line-height: 130%;
-    text-align: center;
-    color: #000;
-    margin-bottom: 40px;
-  }
-  
-  .content__text {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 170%;
-    text-align: center;
-    color: #000;
-    margin-bottom: 20px;
-  }
-  
-  .content__mark {
-    display: flex;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 125.5%;
-    color: #000;
-    margin-bottom: 25px;
-  }
-  
-  .mark__list {
-    display: flex;
-    margin-left: 15px;
-  }
-  
-  .content__price {
-    display: flex;
-    align-items: center;
-    font-style: normal;
-    font-weight: 200;
-    text-align: center;
-    color: #000;
-    margin-bottom: 26px;
-  }
-  
-  .price__old {
-    font-size: 20px;
-    line-height: 150%;
-    opacity: 0.5;
-    text-decoration: line-through;
-  }
-  
-  .price__new {
-    font-size: 30px;
-    line-height: 150%;
-    margin-left: 15px;
-  }
-  
-  .principe {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    background-image: url("../img/section_bg.png");
-    height: 740px;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .principe__title {
-    font-style: normal;
-    font-weight: 200;
-    font-size: 60px;
-    line-height: 120%;
-    text-align: center;
-    color: #fff;
-    width: 450px;
-    display: flex;
-    margin: 0 auto;
-    z-index: 3;
-  }
-  
+  font-style: normal;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 130%;
+  text-align: center;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.content__text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: center;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.content__mark {
+  display: flex;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 125.5%;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.mark__list {
+  display: flex;
+  margin-left: 15px;
+}
+
+.content__price {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+  color: #000;
+  margin-bottom: 26px;
+}
+
+.price__old {
+  font-size: 20px;
+  line-height: 150%;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.price__new {
+  font-size: 30px;
+  line-height: 150%;
+  margin-left: 15px;
+}
+
+.principe {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: url("../img/section_bg.png");
+  height: 740px;
+  background-size: cover;
+  background-position: center;
+}
+
+.principe__title {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 120%;
+  text-align: center;
+  color: #fff;
+  width: 450px;
+  display: flex;
+  margin: 0 auto;
+  z-index: 3;
+}

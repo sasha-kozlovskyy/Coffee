@@ -1,44 +1,43 @@
 .socials__list {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .socials__list--item {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    background-size: contain;
-    transition: 0.4s ease-in-out;
-  }
-  
-  .facebook {
-    background-image: url("../img/facebook.svg");
-    transition: 0.4s ease-in-out;
-  }
-  
-  .facebook:hover {
-    background-image: url("../img/facebook_hover.svg");
-  }
-  
-  .twitter {
-    margin-top: 3px;
-    background-image: url("../img/twitter.svg");
-    transition: 0.4s ease-in-out;
-  }
-  
-  .twitter:hover {
-    background-image: url("../img/twitter_hover.svg");
-  }
-  
-  .instagram {
-    background-image: url("../img/footer_insta.svg");
-    transition: 0.4s ease-in-out;
-  }
-  
-  .instagram:hover {
-    background-image: url("../img/instagram_hover.svg");
-  }
-  
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials__list--item {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 0.4s ease-in-out;
+}
+
+.facebook {
+  background-image: url("../img/facebook.svg");
+  transition: 0.4s ease-in-out;
+}
+
+.facebook:hover {
+  background-image: url("../img/facebook_hover.svg");
+}
+
+.twitter {
+  margin-top: 3px;
+  background-image: url("../img/twitter.svg");
+  transition: 0.4s ease-in-out;
+}
+
+.twitter:hover {
+  background-image: url("../img/twitter_hover.svg");
+}
+
+.instagram {
+  background-image: url("../img/footer_insta.svg");
+  transition: 0.4s ease-in-out;
+}
+
+.instagram:hover {
+  background-image: url("../img/instagram_hover.svg");
+}
