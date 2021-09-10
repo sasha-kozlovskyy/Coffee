@@ -46,7 +46,19 @@ const swip = new Swiper('.insta-slider', {
 
 const menu = document.querySelector('.dropbtn');
 const nav = document.querySelector('.dropup-content');
+const list = document.querySelectorAll('.dropup-menu');
+const link = Array.prototype.slice.call(list);
+
+link.map(item => item.addEventListener('click', () => {
+  nav.classList.remove('dropup-content--activ');
+}));
 
 menu.addEventListener('click', () => {
   nav.classList.toggle('dropup-content--activ');
+});
+
+const form = document.getElementById('submit');
+
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
 });

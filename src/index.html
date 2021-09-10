@@ -26,11 +26,11 @@
         <div class="main-header__dropup">
           <button class="dropbtn">Menu</button>
           <div class="dropup-content">
-            <a href="#">Home</a>
-            <a href="#">Shop</a>
-            <a href="#">About</a>
-            <a href="#">What is Coffeeface</a>
-            <a href="#">Contact</a>
+            <a href="#" class="dropup-menu">Home</a>
+            <a href="#shop" class="dropup-menu">Shop</a>
+            <a href="#about" class="dropup-menu">About</a>
+            <a href="#what-is-coffeface" class="dropup-menu">What is Coffeeface</a>
+            <a href="#contact" class="dropup-menu">Contact</a>
           </div>
         </div>
         <a class="main-header__logo" href="#">
@@ -39,10 +39,10 @@
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item"><a href="#">Home</a></li>
-            <li class="nav__item"><a href="#">Shop</a></li>
-            <li class="nav__item"><a href="#">About</a></li>
-            <li class="nav__item"><a href="#">What is Coffeeface</a></li>
-            <li class="nav__item"><a href="#">Contact</a></li>
+            <li class="nav__item"><a href="#shop">Shop</a></li>
+            <li class="nav__item"><a href="#about">About</a></li>
+            <li class="nav__item"><a href="#what-is-coffeface">What is Coffeeface</a></li>
+            <li class="nav__item"><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         <div class="main-header__shop">
@@ -112,7 +112,7 @@
           Stabilized caffeine works hard to immediately stimulate collagen production in your skin, plus it
           provides a wake-you-up tightening effect.
         </p>
-        <div class="content__price">
+        <div class="content__price" id="shop">
           <div class="price__old">$84.99</div>
           <div class="price__new">$64.99</div>
         </div>
@@ -124,7 +124,7 @@
       <h2 class="principe__title">Exfoliate. Serum. Moisturize.</h2>
     </section>
 
-    <section class="useing">
+    <section class="useing" id="about">
       <div class="useing__bg">
         <img src="./img/htu.svg" alt="htu">
       </div>
@@ -213,7 +213,7 @@
         </div>
       </div>
     </section>
-    <section class="blog">
+    <section class="blog" id="what-is-coffeface">
       <div class="blog__image">
         <img src="./img/blog_bg.jpg" alt="blog_bg">
       </div>
@@ -254,7 +254,7 @@
         class="brends__img"
       >
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="contact__form">
         <h2 class="form__title">Subscribe to coffeeface emails</h2>
         <p class="form__text">
@@ -262,13 +262,18 @@
           free surveys, free education and beauty tips, and live & virtual events. Unsubscribe anytime. For more
           information, see our privacy policy.
         </p>
-        <form class="form" action="#">
+        <form
+          class="form"
+          action="#"
+          method="POST"
+          id="submit"
+        >
           <input
             type="email"
             placeholder="Your email"
             required
           >
-          <button type="submit">Subscribe</button>
+          <button type="reset">Subscribe</button>
         </form>
       </div>
       <div class="contact__img">
@@ -314,15 +319,15 @@
           <div class="footer__first-nav">
             <ul class="first-nav__list">
               <li class="list--item"><a href="#">Home page</a></li>
-              <li class="list--item"><a href="#">About coffeeface</a></li>
-              <li class="list--item"><a href="#">Coffeeface the Community</a></li>
+              <li class="list--item"><a href="#about">About coffeeface</a></li>
+              <li class="list--item"><a href="#what-is-coffeface">Coffeeface the Community</a></li>
             </ul>
           </div>
           <div class="footer__second-nv">
             <ul class="second-nav__list">
               <li class="list--item"><a href="#">Privacy Policy</a></li>
-              <li class="list--item"><a href="#">Shipping-Terms</a></li>
-              <li class="list--item"><a href="#">Contact Us</a></li>
+              <li class="list--item"><a href="#shop">Shipping-Terms</a></li>
+              <li class="list--item"><a href="#contact">Contact Us</a></li>
             </ul>
           </div>
           <div class="footer__socials desctop">
